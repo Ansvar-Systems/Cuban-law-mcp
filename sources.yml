@@ -1,0 +1,28 @@
+# sources.yml
+schema_version: "1.0"
+mcp_name: "Cuban Law MCP"
+jurisdiction: "CU"
+
+sources:
+  - name: "Gaceta Oficial de la República de Cuba"
+    authority: "Ministerio de Justicia de Cuba"
+    official_portal: "https://www.gacetaoficial.gob.cu"
+    canonical_identifier: "Número de Gaceta Oficial + year + date"
+    retrieval_method: "HTML_SCRAPE"
+    api_documentation: "N/A — HTML scraping of public portal"
+    update_frequency: "weekly"
+    last_ingested: "2026-01-01"
+    license_or_terms:
+      type: "Cuban Government Public Domain"
+      url: "https://www.gacetaoficial.gob.cu"
+      summary: "Cuban official gazette; authoritative primary source for all promulgated legislation; publicly accessible via web"
+    coverage:
+      scope: "Active Cuban legislation including the Constitución de la República de Cuba (2019), Código Civil, Código Penal, Ley 150/2022 (Código de las Familias), Decreto-Ley 370/2018 (Informatización de la Sociedad), and major statutes and decrees from the Gaceta Oficial"
+      limitations: "Cuba does not have a comprehensive data protection law comparable to GDPR as of 2026; historical legislation pre-digitisation may be incomplete; some gazette issues available only in PDF; coverage limited to ~54 major instruments from the Gaceta Oficial digital portal"
+    languages:
+      - "es"
+
+data_freshness:
+  automated_checks: true
+  check_frequency: "weekly"
+  last_verified: "2026-01-01"
