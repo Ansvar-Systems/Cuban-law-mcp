@@ -44,12 +44,12 @@ export function getAbout(db: InstanceType<typeof Database>, context: AboutContex
       eu_references: safeCount(db, 'SELECT COUNT(*) as count FROM eu_references'),
     },
     data_source: {
-      name: 'Dominican Republic Law',
-      authority: 'National Council for Law Reporting',
-      url: 'http://consultoria.gov.do',
+      name: 'Gaceta Oficial de la República de Cuba',
+      authority: 'Gaceta Oficial de la República de Cuba',
+      url: 'https://www.gacetaoficial.gob.cu',
       license: 'Government Open Data',
-      jurisdiction: 'KE',
-      languages: ['en', 'sw'],
+      jurisdiction: 'CU',
+      languages: ['es'],
     },
   };
 }
