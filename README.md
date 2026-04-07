@@ -38,12 +38,12 @@ This MCP server makes Cuban law **searchable, cross-referenceable, and AI-readab
 
 > Connect directly to the hosted version -- zero dependencies, nothing to install.
 
-**Endpoint:** `https://mcp.ansvar.eu/law-cuban-law-mcp/mcp`
+**Endpoint:** `https://mcp.ansvar.eu/law-cu/mcp`
 
 | Client | How to Connect |
 |--------|---------------|
 | **Claude.ai** | Settings > Connectors > Add Integration > paste URL |
-| **Claude Code** | `claude mcp add cuban-law --transport http https://mcp.ansvar.eu/law-cuban-law-mcp/mcp` |
+| **Claude Code** | `claude mcp add cuban-law --transport http https://mcp.ansvar.eu/law-cu/mcp` |
 | **Claude Desktop** | Add to config (see below) |
 | **GitHub Copilot** | Add to VS Code settings (see below) |
 
@@ -54,7 +54,7 @@ This MCP server makes Cuban law **searchable, cross-referenceable, and AI-readab
   "mcpServers": {
     "cuban-law": {
       "type": "url",
-      "url": "https://mcp.ansvar.eu/law-cuban-law-mcp/mcp"
+      "url": "https://mcp.ansvar.eu/law-cu/mcp"
     }
   }
 }
@@ -67,7 +67,7 @@ This MCP server makes Cuban law **searchable, cross-referenceable, and AI-readab
   "github.copilot.chat.mcp.servers": {
     "cuban-law": {
       "type": "http",
-      "url": "https://mcp.ansvar.eu/law-cuban-law-mcp/mcp"
+      "url": "https://mcp.ansvar.eu/law-cu/mcp"
     }
   }
 }
