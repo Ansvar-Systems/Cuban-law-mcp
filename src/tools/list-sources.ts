@@ -44,15 +44,14 @@ export async function listSources(
     results: {
       sources: [
         {
-          name: 'Dominican Republic Law',
-          authority: 'National Council for Law Reporting (Dominican Republic Law)',
-          url: 'http://consultoria.gov.do',
+          name: 'Gaceta Oficial de la República de Cuba',
+          authority: 'Gaceta Oficial de la República de Cuba',
+          url: 'https://www.gacetaoficial.gob.cu',
           license: 'Government Open Data',
           coverage:
-            'All Acts of Parliament (revised edition), subsidiary legislation, ' +
-            'the Constitution of Dominican Republic (2010), Dominican Republic Gazette notices, and selected case law ' +
-            'from superior courts including the Supreme Court, Court of Appeal, and High Court',
-          languages: ['en', 'sw'],
+            'Cuban statutes, decrees, and regulations published in the Gaceta Oficial de la República de Cuba, ' +
+            'including the Constitution of the Republic of Cuba, legislative acts, and official government notices',
+          languages: ['es'],
         },
       ],
       database: {

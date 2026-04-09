@@ -1,5 +1,5 @@
 /**
- * Response metadata utilities for Dominican Republic Law MCP.
+ * Response metadata utilities for Cuban Law MCP.
  */
 
 import type Database from '@ansvar/mcp-sqlite';
@@ -33,12 +33,12 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Dominican Republic Law (consultoria.gov.do) — National Council for Law Reporting',
-    jurisdiction: 'KE',
+    data_source: 'Gaceta Oficial de la República de Cuba (gacetaoficial.gob.cu)',
+    jurisdiction: 'CU',
     disclaimer:
-      'This data is sourced from Dominican Republic Law under Government Open Data principles. ' +
-      'The authoritative versions are in English. Swahili translations may be available for some documents. ' +
-      'Always verify with the official Dominican Republic Law portal (consultoria.gov.do).',
+      'This data is sourced from the Gaceta Oficial de la República de Cuba under Government Open Data principles. ' +
+      'The authoritative versions are in Spanish. ' +
+      'Always verify with the official Cuban Gaceta Oficial portal (gacetaoficial.gob.cu).',
     freshness,
   };
 }

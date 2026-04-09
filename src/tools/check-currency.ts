@@ -1,5 +1,5 @@
 /**
- * check_currency — Check whether a Dominican statute is currently in force.
+ * check_currency — Check whether a Cuban statute is currently in force.
  */
 
 import type Database from '@ansvar/mcp-sqlite';

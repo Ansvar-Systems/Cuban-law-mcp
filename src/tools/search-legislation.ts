@@ -1,5 +1,5 @@
 /**
- * search_legislation — Full-text search across Dominican statute provisions.
+ * search_legislation — Full-text search across Cuban statute provisions.
  */
 
 import type Database from '@ansvar/mcp-sqlite';
